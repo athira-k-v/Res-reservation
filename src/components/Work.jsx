@@ -14,7 +14,7 @@ function Work() {
             <Col lg={4}>
                 <img style={{height:'200px',width:"200px"}} src="https://i.postimg.cc/k4C8Vb3K/istockphoto-1145800930-612x612.jpg" alt="" />
             <h2>Cash On Delivery</h2>
-            <p>Online food Delivery for hiring Food Foodota We appreciate your business, and we’ll do best to continue to give you the new kind.</p>
+            <p>Online food Delivery for hiring Food Hunger Bounce We appreciate your business, and we’ll do best to continue to give you the new kind.</p>
             </Col>
             <Col lg={4}>
                 <img style={{height:'200px',width:"200px"}} src="https://i.postimg.cc/MZD4p020/47024f8abcd68186621e38ad5fc0dec9.jpg" alt="" />
@@ -22,6 +22,11 @@ function Work() {
                 <p>We at truly appreciate your business and we’re grateful for the trust you’ve placed in us. We sincerely hope you are satisfied</p>
             </Col>
         </Row>
+
+
+
+
+        
     </div>
   )
 }

@@ -28,7 +28,7 @@ if(!username ||!email ||!password){
   toast.info("Please fill the form Completely")
 }else{
 try{
-  const result=await registerAPI(userInputData)
+  const result=await registerAdminAPI(userInputData)
   console.log(result);
   if (result.status === 200) {
     toast.success(`Welcome ${result.data.username}... Please login to explore the site !!!`)
