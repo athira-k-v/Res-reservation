@@ -69,7 +69,7 @@ function Add() {
           const result = await addMenuAPI(reqBody,reqHeader)
           console.log(result);
           if (result.status === 200) {
-            // toast.success(r`New Menu ${result.data.menuName} has added successfully`);
+            toast.success(r`New Menu ${result.data.menuName} has added successfully`);
             setAddResponse(result.data)                                                         
             handleClose()
           } else {

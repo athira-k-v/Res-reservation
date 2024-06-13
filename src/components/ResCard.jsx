@@ -47,7 +47,7 @@ function ResCard({menu}) {
             </Col>
             <Col sm={12} md={6}>
               <h2 className='fw-bolder text-warning'>{menu?.menuName}</h2>
-              <h3 className='fw-bolder text-info'>{menu?.price}</h3>
+              <h3 className='fw-bolder text-info'>Rs.{menu?.price}</h3>
               <h4>{menu?.description}</h4>
               {/* <select className='m-2 w-100 h-10  rounded'>
                 {Array.from(Array(6),(e,i)=>{
@@ -56,9 +56,9 @@ function ResCard({menu}) {
                   )
                 })}
               </select> */}
-             <div className='d-inline h-100 fs-5'>
+             {/* <div className='d-inline h-100 fs-5'>
 Total price
-             </div>
+             </div> */}
             </Col>
           </Row>
           {/* <div className='mt-3'>

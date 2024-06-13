@@ -53,7 +53,7 @@ export const  deleteMenuAPI =async(menuId,reqHeader)=>{
 
 
 
-//book movie
+//book  reservation
 export const bookReservationAPI=async(user)=>{                 
   return await commonApi("POST",`${SERVER_URL}/reservation`,user,"")
 }

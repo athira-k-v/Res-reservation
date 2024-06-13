@@ -1,7 +1,5 @@
 import React, { useEffect, useState } from 'react'
 import Footer from '../components/Footer'
-import Card from 'react-bootstrap/Card';
-import CardGroup from 'react-bootstrap/CardGroup';
 import { Link } from 'react-router-dom';
 import { Badge, Col, Nav, Row } from 'react-bootstrap';
 import { getAllMenuAPI } from '../services/allAPI';

@@ -98,7 +98,7 @@ setPreview("")
             <div className='col-lg-4'>
 <label className=' w-100 d-flex align-items-center flex-column justify-content-center' >
   <input type="file" style={{display:"none"}} onChange={e=>setMenuData({...menuData,menuImage:e.target.files[0]})} />
-  <img  height={'100%'} width={'100%'} className='mt-5' src={preview?preview:`${SERVER_URL}/uploads/${menu.menuImage}`} alt="project upload pic" />
+  <img  height={'100%'} width={'100%'} className='mt-5' src={preview?preview:`${SERVER_URL}/uploads/${menu.menuImage}`} alt="menu upload pic" />
 </label>
             </div>
 
